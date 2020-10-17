@@ -1,0 +1,3 @@
+## Port and Vulnerability Scanning ##
+Using nmap to check for open ports and potentially vulnerable software.
+SOCK_STREAM = TCP packets
