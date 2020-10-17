@@ -1,3 +1,5 @@
 ## Port and Vulnerability Scanning ##
 Using nmap to check for open ports and potentially vulnerable software.
 SOCK_STREAM = TCP packets
+The simple port scanner (simplescan.py) takes some user input (host IP) and scans a range of ports defined in the code (1-150).
+The more advanced port scanner (advancedscan.py) takes more user input - host IP/domain name and the ports you wish to scan as parameters when running the script.
