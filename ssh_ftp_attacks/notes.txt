@@ -1,0 +1,3 @@
+## SSH and FTP attacks ##
+Scripts to automate attacks against the metasploitable VM!
+ssh_login automatically logs into the machine through the open SSH port (22)
