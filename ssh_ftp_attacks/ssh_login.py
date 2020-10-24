@@ -31,7 +31,7 @@ def main():
     host = "192.168.1.7"
     user = "msfadmin"
     password = "msfadmin"
-    shell = connect(host,user,password)
-    send_command(shell, 'cat /etc/shadow | grep root;ps')
+    shell = connect(user,host,password)
+    send_command(shell, 'ls;ps')
 
 main()
