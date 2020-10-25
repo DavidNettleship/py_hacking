@@ -1,0 +1,2 @@
+## Password Cracking ##
+hash.py - Enter a string and hash it using various hash functions.
