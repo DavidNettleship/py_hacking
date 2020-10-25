@@ -1,3 +1,5 @@
 ## SSH and FTP attacks ##
 Scripts to automate attacks against the metasploitable VM!
 ssh_login automatically logs into the machine through the open SSH port (22) and then executes the ls and ps commands on the VM.
+brute_ssh takes a list of potentially passwords (from passwords.txt) and attempts to connect to the metasploitable vm using them. Once it has the correct password the script runs a command on the target machine.
+anon_ftp attempts to login to the target machine using anonymous ftp.
