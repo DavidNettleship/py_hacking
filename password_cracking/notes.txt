@@ -1,3 +1,4 @@
 ## Password Cracking ##
 hash.py - Enter a string and hash it using various hash functions.
 sha1hash.py - Given a password hash (SHA1) checks a list of 10,000 common passwords from a git repo to see if the password is in this list.
+md5brute.py - Given a password hash (MD5) checks a list passwords from a file (passwords.txt) to see if the password is in this list.
